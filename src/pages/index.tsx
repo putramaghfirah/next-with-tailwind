@@ -16,7 +16,6 @@ export const Home = (): JSX.Element => (
         <p className="text-2xl mt-1 dark:text-white">
           Starter template with tailwindcss, typescript, and eslint
         </p>
-
         <p className="text-lg dark:text-white">
           Go to page{' '}
           <Link href="/about" passHref>
