@@ -25,7 +25,7 @@
     "react/display-name": 0,
     "react/prop-types": 0,
     // "@typescript-eslint/explicit-module-boundary-types": "off",
-    // "@typescript-eslint/no-empty-interface": "off",
+    "@typescript-eslint/no-empty-interface": "off",
     // "@typescript-eslint/naming-convention": 1,
     "@typescript-eslint/explicit-function-return-type": 0,
     "@typescript-eslint/explicit-member-accessibility": 0,
