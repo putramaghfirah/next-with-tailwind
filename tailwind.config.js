@@ -6,7 +6,9 @@ module.exports = {
   ],
   darkMode: 'class', // or 'media' or 'class' or 'false'
   theme: {
-    extend: {},
+    extend: {
+      colors: {},
+    },
     fontFamily: {
       sans: ['Poppins, Inter'],
     },

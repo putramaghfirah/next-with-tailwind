@@ -13,7 +13,7 @@ const ToggleDark: FC<Props> = () => {
         {colorTheme === 'light' ? (
           <SunIcon className="h-7 w-7 text-yellow-500" />
         ) : (
-          <MoonIcon className="h-7 w-7 text-blue-600" />
+          <MoonIcon className="h-7 w-7 text-[#1A202C]" />
         )}
       </button>
     </div>
