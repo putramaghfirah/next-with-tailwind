@@ -1,33 +1,59 @@
 # NextJS Typescript Boilerplate
 
-Bootstrap a developer-friendly NextJS app configured with:
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/26466516/107675802-36216b80-6c77-11eb-8db1-4d3407dc53d9.png" alt="Next.js and TypeScript">
+</p>
 
-- [Typescript](https://www.typescriptlang.org/)
-- Linting with [ESLint](https://eslint.org/)
-- Formatting with [Prettier](https://prettier.io/)
-- Linting, typechecking and formatting on by default using [`husky`](https://github.com/typicode/husky) for commit hooks
-- Testing with [Jest](https://jestjs.io/) and [`react-testing-library`](https://testing-library.com/docs/react-testing-library/intro)
+A Next.js starter that includes all you need to build amazing projects 🔥.
 
-## Preview
+- ⚙️ **Tailwind CSS** - A utility-first CSS framework
+- 📏 **ESLint** — Pluggable JavaScript linter
+- 💖 **Prettier** - Opinionated Code Formatter
+- 🐶 **Husky** — Use git hooks with ease
+- 🗂 **Absolute import** - Import folders and files using the `@` prefix
+- 🧪 **Jest** Testing with Jest and react-testing-library
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+## 🚀 Getting started
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-typescript-eslint-jest)
+1. Clone this template, change "next-with-tailwind" with your own project name <br />
 
-## Deploy your own
+   ```bash
+    git clone https://github.com/putramaghfirah/next-with-tailwind.git "next-with-tailwind"
+   ```
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+2. Install all dependencies <br />
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-typescript-eslint-jest&project-name=with-typescript-eslint-jest&repository-name=with-typescript-eslint-jest)
+   Recommended using yarn
 
-## How to use
+   ```bash
+    cd next-with-tailwind
+    yarn
+   ```
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+   or using npm
 
-```bash
-npx create-next-app --example with-typescript-eslint-jest with-typescript-eslint-jest-app
-# or
-yarn create next-app --example with-typescript-eslint-jest with-typescript-eslint-jest-app
-```
+   ```bash
+    cd next-with-tailwind
+    npm install
+   ```
+
+3. Run the development server <br />
+   
+   Using yarn 
+    ```bash
+    yarn run dev
+    ```
+
+   or using npm
+    ```bash
+    npm run dev
+    ```
+
+    To view the project open `http://localhost:3000`.
+
+## 📝 Credits
+
+&copy; 2021 Created by [Putra Maghfirah](https://github.com/putramaghfirah)
+
 
 Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
