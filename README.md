@@ -11,7 +11,9 @@ A Next.js starter that includes all you need to build amazing projects 🔥.
 - 💖 **Prettier** - Opinionated Code Formatter
 - 🐶 **Husky** — Use git hooks with ease
 - 🗂 **Absolute import** - Import folders and files using the `@` prefix
-- 🧪 **Jest** Testing with Jest and react-testing-library
+- 🧪 **Jest** - Testing with Jest and react-testing-library
+- 🌠 **NProgress** - Slim progress bars
+- 🎨 **Heroicons** - Beautiful icons, by the makers of Tailwind CSS
 
 ## 🚀 Getting started
 
