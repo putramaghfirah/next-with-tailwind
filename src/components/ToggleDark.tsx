@@ -1,4 +1,4 @@
-import React, { FC, useEffect } from 'react'
+import React, { FC } from 'react'
 import { SunIcon, MoonIcon } from '@heroicons/react/solid'
 import useDarkMode from '../lib/useDarkMode'
 
