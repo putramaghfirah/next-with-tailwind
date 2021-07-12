@@ -1,18 +1,27 @@
 import { useState, useEffect } from 'react'
 
-// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
-export default function useDarkMode() {
-  const [theme, setTheme] = useState(
-    typeof window !== 'undefined' ? localStorage.getItem('theme') : null,
-  )
-
-  const colorTheme = theme === 'dark' ? 'light' : 'dark'
+export default function useDarkMode(): readonly ['dark' | 'light', () => void] {
+  const [theme, setTheme] = useState<'dark' | 'light'>('light')
 
   useEffect(() => {
-    document.documentElement.classList.remove(colorTheme)
-    document.documentElement.classList.add(theme)
-    localStorage.setItem('theme', theme)
-  }, [theme, colorTheme])
+    const localTheme = localStorage.getItem('theme')
+      ? localStorage.getItem('theme')
+      : 'light'
+    setTheme(localTheme as 'light' | 'dark')
+  }, [])
 
-  return [colorTheme, setTheme] as const
+  useEffect(() => {
+    localStorage.setItem('theme', theme)
+    document.documentElement.classList.remove('dark')
+    document.documentElement.classList.remove('light')
+    document.documentElement.classList.add(theme)
+  }, [theme])
+
+  function toggleTheme() {
+    if (theme === 'light') {
+      setTheme('dark')
+    } else setTheme('light')
+  }
+
+  return [theme, toggleTheme] as const
 }
