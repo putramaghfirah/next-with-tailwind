@@ -12,9 +12,8 @@ export default function useDarkMode(): readonly ['dark' | 'light', () => void] {
 
   useEffect(() => {
     localStorage.setItem('theme', theme)
-    if (localStorage.getItem('theme') === 'dark') {
-      document.documentElement.classList.remove('light')
-    } else document.documentElement.classList.remove('dark')
+    document.documentElement.classList.remove('dark')
+    document.documentElement.classList.remove('light')
     document.documentElement.classList.add(theme)
   }, [theme])
 
