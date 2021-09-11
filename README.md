@@ -40,22 +40,23 @@ A Next.js starter that includes all you need to build amazing projects 🔥.
    ```
 
 3. Run the development server <br />
-   
-   Using yarn 
-    ```bash
-    yarn run dev
-    ```
+
+   Using yarn
+
+   ```bash
+   yarn run dev
+   ```
 
    or using npm
-    ```bash
-    npm run dev
-    ```
 
-    To view the project open `http://localhost:3000`.
+   ```bash
+   npm run dev
+   ```
+
+   To view the project open `http://localhost:3000`.
 
 ## 📝 Credits
 
 &copy; 2021 Created by [Putra Maghfirah](https://github.com/putramaghfirah)
-
 
 Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
