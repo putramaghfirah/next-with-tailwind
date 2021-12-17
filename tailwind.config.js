@@ -1,6 +1,6 @@
 module.exports = {
-  mode: 'jit',
-  purge: [
+  // mode: 'jit', // tailwind 3.0 is already mode jit
+  content: [
     './src/pages/**/*.{js,ts,jsx,tsx}',
     './src/components/**/*.{js,ts,jsx,tsx}',
   ],

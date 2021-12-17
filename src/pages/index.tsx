@@ -1,7 +1,10 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import { NextPage } from 'next'
 
-export const HomePage = (): JSX.Element => (
+interface Props {}
+
+export const HomePage: NextPage<Props> = () => (
   <>
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <Head>
