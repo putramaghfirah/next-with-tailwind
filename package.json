@@ -11,7 +11,8 @@
     "format": "prettier --write .",
     "lint": "eslint . --ext ts --ext tsx --ext js",
     "test": "jest",
-    "test-all": "yarn lint && yarn type-check && yarn test"
+    "test-all": "yarn lint && yarn type-check && yarn test",
+    "release": "standard-version"
   },
   "husky": {
     "hooks": {
@@ -30,7 +31,8 @@
     "next": "^12.0.7",
     "nprogress": "^0.2.0",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "standard-version": "^9.3.2"
   },
   "devDependencies": {
     "@testing-library/react": "^11.2.5",
