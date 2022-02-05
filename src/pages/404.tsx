@@ -9,21 +9,21 @@ const custom404 = (): JSX.Element => {
         <title>404 Page Not Found</title>
         <meta name="description" content="Page not found" />
       </Head>
-      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-        <h1 className="font-bold text-5xl text-center dark:text-white">
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform">
+        <h1 className="text-center text-5xl font-bold dark:text-white">
           4
           <span role="img" aria-label="Crying Face">
             😢
           </span>
           4
         </h1>
-        <p className="text-lg text-center mt-2 dark:text-white">
+        <p className="mt-2 text-center text-lg dark:text-white">
           Page not found.
         </p>
-        <p className="text-lg text-center dark:text-white">
+        <p className="text-center text-lg dark:text-white">
           Return to{' '}
           <Link href="/" passHref>
-            <a className="text-blue-600 font-bold">Home Page</a>
+            <a className="font-bold text-blue-600">Home Page</a>
           </Link>
         </p>
       </div>
