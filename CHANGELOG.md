@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/putramaghfirah/next-with-tailwind/compare/v1.3.0...v1.4.0) (2022-08-05)
+
+
+### Features
+
+* **deps:** :arrow_up: up deps ([0bbcd02](https://github.com/putramaghfirah/next-with-tailwind/commit/0bbcd02dbe1c4037ad80ee470714e63ba4c46441))
+* **deps:** :heavy_plus_sign: add eslint prettier ([a5742a2](https://github.com/putramaghfirah/next-with-tailwind/commit/a5742a2000b809114c4f5e3bc0acc62cf5b165cf))
+
 ## [1.3.0](https://github.com/putramaghfirah/next-with-tailwind/compare/v1.2.0...v1.3.0) (2022-06-22)
 
 
