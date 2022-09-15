@@ -2,7 +2,7 @@
   "name": "with-typescript-eslint-jest",
   "author": "@putramaghfirah",
   "license": "MIT",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
